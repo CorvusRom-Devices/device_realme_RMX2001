@@ -9,6 +9,16 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera \
     vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
 
+# Bionic
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.bionic.cpu_variant=cortex-a76 \
+    ro.bionic.2nd_cpu_variant=cortex-a76
+
+# Dalvik
+PRODUCT_PRODUCT_PROPERTIES += \
+    dalvik.vm.isa.arm.variant=cortex-a76 \
+    dalvik.vm.isa.arm64.variant=cortex-a76
+
 # Dex2oat
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true \
