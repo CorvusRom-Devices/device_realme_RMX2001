@@ -1,0 +1,12 @@
+[
+  {
+    "repository" : "ManshuTyagi/vendor_realme_RMX2001"
+    "target_path": "vendor/realme/RMX2001",
+    "branch"     : "eleven"
+  },
+  {
+    "repository" : "ManshuTyagi/kernel_realme_RMX2001",
+    "target_path": "kernel/realme/RMX2001",
+    "branch"     : "eleven"
+  }
+]
