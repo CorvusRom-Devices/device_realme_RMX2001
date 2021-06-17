@@ -24,6 +24,10 @@ $(call inherit-product, device/realme/RMX2001/device.mk)
 # Inherit some common CorvusOS stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
+# Poduct spec
+IS_PHONE := true
+scr_resolution := 1080
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := corvus_RMX2001
 PRODUCT_DEVICE := RMX2001
