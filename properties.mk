@@ -48,6 +48,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.swap_free_low_percentage=20 \
     ro.lmk.kill_timeout_ms=100
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.corvus.maintainer=ManshuTyagi
+
 # NFC
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.nfc.disPowerSave=1 \
