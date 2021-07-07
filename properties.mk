@@ -42,6 +42,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1
 
+# Iorap
+PRODUCT_PROPERTY_OVERRIDES += \
+   iorapd.perfetto.enable=true \
+   iorapd.readahead.enable=true
+
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.psi_complete_stall_ms=150 \
