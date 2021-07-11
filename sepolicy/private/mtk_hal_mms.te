@@ -10,3 +10,6 @@ binder_call(mtk_hal_mms, untrusted_app_29)
 
 # Allow gmscore to make binder call to mtk_hal_mms
 binder_call(mtk_hal_mms, gmscore_app);
+
+# Receive and use open file descriptors inherited from gmscore
+allow mtk_hal_mms gmscore_app:fd use;
